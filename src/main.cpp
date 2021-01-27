@@ -45,6 +45,6 @@ void setup()
 
 void loop()
 {
-  // turn the LED on (HIGH is the voltage level)
+
 
 }
