@@ -8,8 +8,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid     = "YOUR SSID";
-const char* password = "PASS PHRASE";
+const char* ssid     = "SPARK-7J5TDB";
+const char* password = "VXKTSEH8ME";
 String serverName = "https://query1.finance.yahoo.com/v8/finance/chart/";
 String token = "?region=US&lang=en-US&includePrePost=false&interval=1d&range=1d";
 const uint8_t LEDMATRIX_CS_PIN = 15;
@@ -17,7 +17,7 @@ const int LEDMATRIX_SEGMENTS = 4;
 const int LEDMATRIX_WIDTH    = LEDMATRIX_SEGMENTS * 8;
 LEDMatrixDriver lmd(LEDMATRIX_SEGMENTS, LEDMATRIX_CS_PIN);
 const int ANIM_DELAY = 75; //75 is slow enough
-String ticker1 = "none";
+String ticker1 = "GME";
 char displayString[30] = "";
 char priceString[] = "regularMarketPrice\":";
 char endPrice[] = ",\"";
